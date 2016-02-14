@@ -1,0 +1,20 @@
+{
+    "user": {
+        "all": {
+            "\/$user\/files\/vaneDisk": {
+                "id": 1,
+                "class": "\\OC\\Files\\Storage\\OwnCloud",
+                "options": {
+                    "host": "http:\/\/112.64.137.178:52080\/vanedisk",
+                    "user": "zhukai",
+                    "password": "",
+                    "root": "",
+                    "secure": false,
+                    "password_encrypted": "YzRrejZxd3M3ZWxxNmthMMDsvV0pMa7r\/D\/MFk0FMwo="
+                },
+                "priority": 100,
+                "storage_id": "3"
+            }
+        }
+    }
+}

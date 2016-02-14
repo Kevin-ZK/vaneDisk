@@ -1,0 +1,13 @@
+{ "translations": {
+    "Files" : "په‌ڕگەکان",
+    "Favorites" : "دڵخوازەکان",
+    "Download" : "داگرتن",
+    "Select" : "دیاریکردنی",
+    "Error" : "هه‌ڵه",
+    "Name" : "ناو",
+    "Save" : "پاشکه‌وتکردن",
+    "Settings" : "ڕێکخستنه‌کان",
+    "Folder" : "بوخچه",
+    "Upload" : "بارکردن"
+},"pluralForm" :"nplurals=2; plural=(n != 1);"
+}
