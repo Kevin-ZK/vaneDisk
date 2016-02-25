@@ -1,31 +1,4 @@
 <?php
-/**
- *
- * @copyright Copyright (c) 2015, ownCloud, Inc.
- * @license AGPL-3.0
- *
- * This code is free software: you can redistribute it and/or modify
- * it under the terms of the GNU Affero General Public License, version 3,
- * as published by the Free Software Foundation.
- *
- * This program is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
- * GNU Affero General Public License for more details.
- *
- * You should have received a copy of the GNU Affero General Public License, version 3,
- * along with this program.  If not, see <http://www.gnu.org/licenses/>
- *
- */
-
-/**
- * Public interface of ownCloud for apps to use.
- * Server container interface
- *
- */
-
-// use OCP namespace for all classes that are considered public.
-// This means that they should be used by apps instead of the internal ownCloud classes
 namespace OCP;
 
 
@@ -33,7 +6,7 @@ namespace OCP;
  * Class IServerContainer
  * @package OCP
  *
- * This container holds all ownCloud services
+ * This container holds all vanedisk services
  * @since 6.0.0
  */
 interface IServerContainer {
@@ -75,7 +48,7 @@ interface IServerContainer {
 	public function getTagManager();
 
 	/**
-	 * Returns the root folder of ownCloud's data directory
+	 * Returns the root folder of vanedisk's data directory
 	 *
 	 * @return \OCP\Files\IRootFolder
 	 * @since 6.0.0 - between 6.0.0 and 8.0.0 this returned \OCP\Files\Folder
@@ -83,7 +56,7 @@ interface IServerContainer {
 	public function getRootFolder();
 
 	/**
-	 * Returns a view to ownCloud's files folder
+	 * Returns a view to vanedisk's files folder
 	 *
 	 * @param string $userId user ID
 	 * @return \OCP\Files\Folder
@@ -92,7 +65,7 @@ interface IServerContainer {
 	public function getUserFolder($userId = null);
 
 	/**
-	 * Returns an app-specific view in ownClouds data directory
+	 * Returns an app-specific view in vanedisk's data directory
 	 *
 	 * @return \OCP\Files\Folder
 	 * @since 6.0.0
@@ -165,7 +138,7 @@ interface IServerContainer {
 
 	/**
 	 * Returns an instance of the db facade
-	 * @deprecated 8.1.0 use getDatabaseConnection, will be removed in ownCloud 10
+	 * @deprecated 8.1.0 use getDatabaseConnection
 	 * @return \OCP\IDb
 	 * @since 7.0.0
 	 */

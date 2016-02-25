@@ -21,4 +21,12 @@ $CONFIG = array (
   'knowledgebaseenabled' => false,
   'appstoreenabled' => false,
   'default_language' => 'zh_CN',
+  'mail_from_address' => 'zju_zk',
+  'mail_smtpmode' => 'php',
+  'mail_domain' => '163.com',
+  'mail_smtpauthtype' => 'LOGIN',
+  'mail_smtpauth' => 1,
+  'mail_smtphost' => 'smtp',
+  'appstore.experimental.enabled' => false,
+  'theme' => '',
 );

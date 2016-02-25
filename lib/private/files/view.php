@@ -1,23 +1,4 @@
 <?php
-/**
- *
- * @copyright Copyright (c) 2015, ownCloud, Inc.
- * @license AGPL-3.0
- *
- * This code is free software: you can redistribute it and/or modify
- * it under the terms of the GNU Affero General Public License, version 3,
- * as published by the Free Software Foundation.
- *
- * This program is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
- * GNU Affero General Public License for more details.
- *
- * You should have received a copy of the GNU Affero General Public License, version 3,
- * along with this program.  If not, see <http://www.gnu.org/licenses/>
- *
- */
-
 
 namespace OC\Files;
 
@@ -32,7 +13,7 @@ use OCP\Lock\ILockingProvider;
 use OCP\Lock\LockedException;
 
 /**
- * Class to provide access to ownCloud filesystem via a "view", and methods for
+ * Class to provide access to vanedisk filesystem via a "view", and methods for
  * working with files within that view (e.g. read, write, delete, etc.). Each
  * view is restricted to a set of directories via a virtual root. The default view
  * uses the currently logged in user's data directory as root (parts of

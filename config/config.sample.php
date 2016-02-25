@@ -1,26 +1,6 @@
 <?php
 
 /**
- * This configuration file is only provided to document the different
- * configuration options and their usage.
- *
- * DO NOT COMPLETELY BASE YOUR CONFIGURATION FILE ON THIS SAMPLE. THIS MAY BREAK
- * YOUR INSTANCE. Instead, manually copy configuration switches that you
- * consider important for your instance to your working ``config.php``, and
- * apply configuration options that are pertinent for your instance.
- *
- * This file is used to generate the config documentation. Please consider
- * following requirements of the current parser:
- *  * all comments need to start with `/**` and end with ` *\/` - each on their
- *    own line
- *  * add a `@see CONFIG_INDEX` to copy a previously described config option
- *    also to this line
- *  * everything between the ` *\/` and the next `/**` will be treated as the
- *    config option
- *  * use RST syntax
- */
-
-/**
  * Only enable this for local development and not in production environments
  * This will disable the minifier and outputs some additional debug informations
  */

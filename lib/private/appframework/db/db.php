@@ -1,22 +1,4 @@
 <?php
-/**
- *
- * @copyright Copyright (c) 2015, ownCloud, Inc.
- * @license AGPL-3.0
- *
- * This code is free software: you can redistribute it and/or modify
- * it under the terms of the GNU Affero General Public License, version 3,
- * as published by the Free Software Foundation.
- *
- * This program is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
- * GNU Affero General Public License for more details.
- *
- * You should have received a copy of the GNU Affero General Public License, version 3,
- * along with this program.  If not, see <http://www.gnu.org/licenses/>
- *
- */
 
 namespace OC\AppFramework\Db;
 
@@ -24,7 +6,7 @@ use OCP\IDb;
 use OCP\IDBConnection;
 
 /**
- * @deprecated use IDBConnection directly, will be removed in ownCloud 10
+ * @deprecated use IDBConnection directly, will be removed
  * Small Facade for being able to inject the database connection for tests
  */
 class Db implements IDb {

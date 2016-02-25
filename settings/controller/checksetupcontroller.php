@@ -1,22 +1,4 @@
 <?php
-/**
- *
- * @copyright Copyright (c) 2015, ownCloud, Inc.
- * @license AGPL-3.0
- *
- * This code is free software: you can redistribute it and/or modify
- * it under the terms of the GNU Affero General Public License, version 3,
- * as published by the Free Software Foundation.
- *
- * This program is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
- * GNU Affero General Public License for more details.
- *
- * You should have received a copy of the GNU Affero General Public License, version 3,
- * along with this program.  If not, see <http://www.gnu.org/licenses/>
- *
- */
 
 namespace OC\Settings\Controller;
 
@@ -70,7 +52,7 @@ class CheckSetupController extends Controller {
 	}
 
 	/**
-	 * Checks if the ownCloud server can connect to the internet using HTTPS and HTTP
+	 * Checks if the vanedisk server can connect to the internet using HTTPS and HTTP
 	 * @return bool
 	 */
 	private function isInternetConnectionWorking() {
@@ -125,7 +107,7 @@ class CheckSetupController extends Controller {
 	/**
 	 * Check if the used  SSL lib is outdated. Older OpenSSL and NSS versions do
 	 * have multiple bugs which likely lead to problems in combination with
-	 * functionalities required by ownCloud such as SNI.
+	 * functionalities required by vanedisk such as SNI.
 	 *
 	 * @link https://github.com/owncloud/core/issues/17446#issuecomment-122877546
 	 * @link https://bugzilla.redhat.com/show_bug.cgi?id=1241172

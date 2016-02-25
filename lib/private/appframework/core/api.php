@@ -1,30 +1,11 @@
 <?php
-/**
- *
- * @copyright Copyright (c) 2015, ownCloud, Inc.
- * @license AGPL-3.0
- *
- * This code is free software: you can redistribute it and/or modify
- * it under the terms of the GNU Affero General Public License, version 3,
- * as published by the Free Software Foundation.
- *
- * This program is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
- * GNU Affero General Public License for more details.
- *
- * You should have received a copy of the GNU Affero General Public License, version 3,
- * along with this program.  If not, see <http://www.gnu.org/licenses/>
- *
- */
-
 
 namespace OC\AppFramework\Core;
 use OCP\AppFramework\IApi;
 
 
 /**
- * This is used to wrap the owncloud static api calls into an object to make the
+ * This is used to wrap the vanedisk static api calls into an object to make the
  * code better abstractable for use in the dependency injection container
  *
  * Should you find yourself in need for more methods, simply inherit from this

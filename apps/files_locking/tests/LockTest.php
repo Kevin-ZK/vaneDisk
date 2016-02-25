@@ -1,12 +1,4 @@
 <?php
-/**
- * @since 9/24/14, 11:20 AM
- * @link http:/www.clarkt.com
- * @copyright Clark Tomlinson © 2014
- *
- * This file is licensed under the Affero General Public License version 3 or later.
- * See the COPYING-README file.
- */
 
 namespace OCA\Files_Locking\Tests;
 
