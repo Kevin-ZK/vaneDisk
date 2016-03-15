@@ -28,5 +28,5 @@ $CONFIG = array (
   'appstore.experimental.enabled' => false,
   'theme' => '',
   'preview_libreoffice_path' => '/usr/bin/libreoffice5.0',
-  'loglevel' => 3,
+  'loglevel' => 0,
 );
